@@ -1,0 +1,189 @@
+.word_break {
+  display: inline-block;
+}
+
+.modal-backdrop.in {
+  filter: alpha(opacity=70);
+  opacity: .7;
+}
+
+.form-horizontal .form-group {
+  margin-right: initial;
+  margin-left: initial;
+}
+
+.index_section {
+  background: #ffd03c;
+  background-image: url("http://yesim.tw/blink/floorgame/img/question/bg.png");
+  background-repeat: repeat;
+}
+
+.result_section {
+margin: 15rem;
+    background: #ffde84;
+    position: relative;
+    margin-top: 7rem;
+    border-radius: 20px;
+}
+
+.result_section:before {
+  content: '';
+  width: 97.5%;
+  height: 95%;
+  left: 1.25%;
+  top: 2.5%;
+  position: absolute;
+  border: 3px dotted #fff;
+  border-radius: 20px;
+}
+
+.result_section .result_title {
+      position: absolute;
+    top: -70px;
+    left: 0px;
+    margin: 0px 200px;
+}
+
+.result_section .result_content {
+  margin-top: 60px;
+  margin:2rem;
+}
+.result_content>.row:nth-child(1){
+  margin-top:20rem;
+}
+
+.result_section .result_content .col-md-8 img {
+  max-width: 400px;
+}
+
+.result_section .result_content .result_data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result_section .result_content .col-md-3 {
+  text-align: center;
+}
+
+.result_section .result_content .col-md-3 img {
+  max-width: 130px;
+}
+
+.result_section h3 {
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+#formModal {
+  text-align: center;
+}
+
+#formModal .modal-dialog {
+  border-radius: 50px;
+}
+
+#formModal .modal-dialog .modal-content {
+  background: #ffde84;
+}
+
+#formModal .modal-dialog .modal-content .modal-body .modal-frame {
+  border-radius: 5px;
+  padding: 20px 60px;
+}
+
+#formModal .form_subtitle {
+  font-size: 16px;
+}
+
+#formModal #myform {
+  text-align: left;
+}
+
+#formModal #myform .row .col-xs-3 {
+  background: #01a8ec;
+  color: white;
+  text-align: center;
+  height: 36px;
+}
+
+#formModal #myform .btn-sendform {
+  color: #fff;
+  background-color: #ff9600;
+}
+
+#formModal #myform .btn-sendform:hover {
+  background-color: #da8101;
+}
+
+#formModal img {
+  max-width: 532px;
+}
+.share{
+  text-align: center;
+}
+.share #shareBtn {
+  cursor: pointer;
+}
+
+.share img {
+  max-width: 309px;
+}
+@media (max-width: 1600px) {
+.result_content>.row:nth-child(1) {
+    margin-top: 20.5rem;
+}
+}
+@media (max-width: 1280px) {
+  .result_content>.row:nth-child(1) {
+    margin-top: 12.5rem;
+}
+}
+
+@media (min-width: 981px) {
+  .modal-dialog {
+    width: 70%;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 981px) {
+  #formModal .modal-dialog .modal-content .modal-body .modal-frame {
+  padding: 0px;
+}
+  body {
+    overflow: scroll;
+  }
+  .index_section {
+    max-height: initial;
+    min-height: initial;
+    background: #ffde84;
+  }
+  .result_section {
+    margin: initial;
+    padding: 50px 0px;
+  }
+  .result_section .result_title {
+    position: initial;
+    top: 50px;
+    left: 0px;
+    margin: initial;
+  }
+  .result_section .result_content {
+    margin-top: initial;
+  }
+  .result_section .result_content .result_data {
+    display: initial;
+  }
+  .result_section .result_content h3 {
+    text-align: left;
+  }
+  .result_section .result_content .col-xs-12 {
+    text-align: center;
+  }
+  #formModal .modal-frame {
+    padding: initial;
+  }
+}

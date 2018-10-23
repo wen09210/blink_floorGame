@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>居家地板大進擊</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="short.currentt icon" href="../img/favicon.ico">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+	<!-- 問題區塊 -->
+	<div  id="question_index">
+			<div class="index_section row">
+				<div class="main_text">
+					<div class="col-md-12">
+						<img src="img/main_text.gif" alt="" class="animated bounceInDown">
+					</div>
+					<div class="col-md-12 ">
+						<div class="centerflag animated delay2s bounceInUp">
+						<img src="img/flag.png" alt="" >
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div ><img src="img/start.png" alt="" onmouseover="hover(this);" onmouseout="unhover(this);" class="animated infinite startgame" onclick="startGame()" style="cursor: pointer;"></div>
+					</div>
+				</div>
+				<hr class="white_line"></hr>
+				<div class="row textword">
+					<div class="col-md-3"><div data-toggle="modal" data-target="#myactivities"><img src="img/activities.png" alt=""></div></div>
+					<div class="col-md-3"><div  data-toggle="modal" data-target="#myaward"><img src="img/award.png" alt=""></div></div>
+					<div class="col-md-3"><div  data-toggle="modal" data-target="#mywater"><img src="img/water.png" alt=""></div></div>
+					<div class="col-md-3"><div  data-toggle="modal" data-target="#mynotice"><img src="img/notice.png" alt=""></div></div>
+				</div>
+			</div>
+			
+		<!--浮動物件  -->
+			<div class="sister animated delay1s bounceInLeft">
+				<img src="img/sister.png" alt="">
+			</div>
+			<div class="dog animated delay1_5s bounceInRight">
+				<img src="img/dog.gif" alt="">
+			</div>
+			<a href="" data-toggle="modal" data-target="#myactivities"><img class="takealook" src="img/takealook.gif"></a>
+			<!-- star -->
+		<div class="star_all ">
+			<div class="star1 animated a2s infinite rubberBand ">
+				<img src="img/star.png" alt="">
+			</div>
+			<div class="star2 animated a2s infinite flash">
+				<img src="img/star.png" alt="">
+			</div>
+			<div class="star3 animated a2s infinite wobble">
+				<img src="img/star.png" alt="">
+			</div>
+		</div>
+		<div class="star_right ">
+			<div class="star1 animated a2s infinite wobble">
+				<img src="img/star.png" alt="">
+			</div>
+			<div class="star2 animated a2s infinite rubberBand">
+				<img src="img/star.png" alt="">
+			</div>
+			<div class="star3 animated a2s infinite flash">
+				<img src="img/star.png" alt="">
+			</div>
+		</div>
+		<div class="white_dot">
+			<img src="img/white dot.png" alt="">
+		</div>
+	</div>		
+	<span class="open_nav" onclick="openNav()"><img src="img/menu.png" alt="" ></span>
+	<div id="myNav" class="overlay">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <div class="overlay-content">
+		    <div data-toggle="modal" data-target="#myactivities">活動辦法</div>
+		    <div data-toggle="modal" data-target="#myaward">得獎名單</div>
+		    <div data-toggle="modal" data-target="#mywater">100%防水地板</div>
+		    <div data-toggle="modal" data-target="#mynotice">活動規則與聲明</div>
+		  </div>
+		</div>
+	<!-- 活動辦法 -->
+	<div class="modal fade" id="myactivities" role="dialog" data-position="fixed" data-fullscreen="true">
+		    <div class="modal-dialog modal-lg">
+		      <div class="modal-content">
+		        <div class="modal-header">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		          <h4 class="modal-title"><img src="img/howtojoin/how_to_join_title.png" alt=""></h4>
+		        </div>
+		        <div class="modal-body">
+		        	<div class="rule">
+		        	<img src="img/howtojoin/how_to_join.png" alt=""></div>
+		        	<img src="img/howtojoin/best_prize.png" alt="">
+		        	<div class="about_prize"><img src="img/howtojoin/about_prize.png" alt=""></div>
+		        	<p>1. 採用食品容器級環保樹酯PVC,無毒環保,經過SGS檢驗中心、ST安全玩具中心認證,不含甲醛、塑化劑、甲醯胺、八大重金屬,提供寶寶安全健康的遊戲環境</p>
+		        	<p>2. 採用十色印刷,圖案逼真可愛,富有立體感,色彩鮮明,激發寶寶探索世界的心理</p>
+		        	<p>3. 壓邊平滑設計,在寶寶玩耍時不會絆倒 ; 坊間大多為無紡布包邊或是切邊,稜角突出,寶寶玩耍時容易被絆倒</p>
+		        	<p>4. 過軟的墊子不利於嬰兒爬行,甚至妨礙成長 ; 過硬的墊子容易傷及寶寶的身體 ; 本產品採用PVC材質,硬度軟硬適中,質感更貼近皮膚</p>
+		        	<p>5. 1.2CM厚度,柔軟厚實具有"慢"回彈性,可有效緩衝寶寶跌倒時的衝擊力</p>
+		        	<p>6. 獨特鑽石紋理,不易藏污納垢、防滑、防水、耐磨、易擦洗</p>
+		        	<img src="img/howtojoin/second_prize.png" alt="">
+					<div class="about_prize"><img src="img/howtojoin/about_prize.png" alt=""></div>
+					<p>正版授權商品，細節精緻車縫，反面止滑材質設計，觸感柔軟舒適，適合室內各空間，可放置於客聽/臥室/遊戲間美觀又好看，逗趣可愛的療癒模樣，增添居家活潑氛圍！</p>
+					<p>1. 背底乳膠強力止滑具有美觀、保暖、吸音、保護高級地板等多重功效。</p>
+					<p>2. 採用特殊圈毛編織，更好整理。</p>
+					<p>3. 100%尼龍毛纖材質，觸感軟細，色彩立體鮮明。</p>
+					<p>4. 90x130cm尺寸適合鋪設書房/書桌&電腦桌下/小孩遊戲室或臥房。</p>
+					<p>5. 繽紛色彩，創造居家歡樂氣氛。</p>
+					<p>6. 可水洗、機洗，簡單清潔保養方法，輕鬆超Easy。</p>
+					<img src="img/howtojoin/third_prize.png" alt="">
+					<div class="about_prize"><img src="img/howtojoin/about_prize.png" alt=""></div>
+					<p>採用高科技壓光染印處理觸感柔細，背底加上了乳膠強力止滑功能，鋪設於小朋友的遊戲室或臥房，更能兼顧到小孩玩耍當中的居家安全，柔細的毯面無論或坐或臥舒適不產生刺痛感也不會造成細嫩肌膚的不舒服，在地毯上與寶貝玩樂、閱讀更能夠增添親子間的互動！</p>
+					<p>1. 背底乳膠強力止滑具有美觀、保暖、吸音、保護高級地板等多重功效。</p>
+					<p>2. 100%尼龍毛纖材質，觸感軟細，色彩立體鮮明。</p>
+					<p>3. 100x130cm尺寸適合鋪設書房/書桌&電腦桌下/小孩遊戲室或臥房。</p>
+					<p>4. 繽紛色彩，創造居家歡樂氣氛。</p>
+					<p>5. 可水洗、機洗，簡單清潔保養方法，輕鬆超Easy。</p>
+		        </div>
+		       </div>
+		    </div>
+	</div>
+	<!-- 得獎名單 -->
+	<div class="modal fade" id="myaward" role="dialog" data-position="fixed" data-fullscreen="true">
+		    <div class="modal-dialog modal-lg">
+		      <div class="modal-content">
+		        <div class="modal-header">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		          <h4 class="modal-title"><img src="img/howtojoin/list_title.png" alt=""></h4>
+		        </div>
+		        <div class="modal-body">
+		        <div class="t_center">
+				<p>恭喜以下得獎者!!</p>
+				<p style="color:#0189ff;">大獎 韓國柔軟遊戲地墊一個(共3名)</p>
+		        <p>紀心蘭 女 0910-xxx-xxx</p>
+		        <p>傅科錞 男 0952-xxx-xxx</p>
+		        <p>詹素娥 女 0913-xxx-xxx</p>
+		        <p style="color:#0189ff;">次獎 小小兵進口防滑地毯一個(共3名)</p>
+		        <p>馬儷娟 女 0910-xxx-xxx</p>
+		        <p>梁永龍 男 0922-xxx-xxx</p>
+		        <p>陳世大 男 0926-xxx-xxx</p>
+		        <p style="color:#0189ff;">參獎 進口乳膠防滑地毯一個(共3名)</p>
+		        <p>魏蘭蘭   女    0926-xxx-xxx</p>
+		        <p>余冊梅 女    0983-xxx-xxx</p>
+		        <p>葉民楙 男 0937-xxx-xxx</p>
+		        </div>
+		        
+		        
+		        
+		        	<div class="about_prize" style="margin-top: 15px;"><img src="img/howtojoin/NOTICE.png" alt=""></div>
+		<p>1.本公司將會主動以Email的方式與得獎者聯繫，參加本活動者請自行確認所填寫或登錄之資料均為正確，</p>
+		<p>若因資料不全或錯誤，致無法通知活動相關訊息或送達獎品者，本公司概不負責。</p>
+		<p>2.未於領獎期限內完成相關領獎手續或領獎者，視同放棄得獎權利，不接受開立扣繳憑單者，亦同。</p>
+		<p>3.本活動獎品悉以實物為準，如遇缺貨或不可抗力之因素無法提供時，本公司有權以其他等值品替代。</p>
+		<p>4.本活動獎品寄送地址僅限中華民國境內，如得獎者未能於領獎期限前回覆有效國內寄送地址，本公司得取消其得獎資格。</p>
+
+		        	
+		        </div>
+		       </div>
+		    </div>
+	</div>
+	<!-- 防水地板-->
+	<div class="modal fade" id="mywater" role="dialog" data-position="fixed" data-fullscreen="true">
+		    <div class="modal-dialog modal-lg">
+		      <div class="modal-content">
+		        <div class="modal-header">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		          <h4 class="modal-title"><img src="img/howtojoin/100water.png" alt=""></h4>
+		        </div>
+		        <div class="modal-body">
+		        	<div class="about_prize"><img src="img/howtojoin/wantknow.gif" alt=""></div>
+		        	<div class="row">
+		        	<div class="col-md-2 col-xs-6 floor_six floor_six1 sixon" onclick="floorsix(1)"><img src="img/howtojoin/floor1.jpg" alt=""><div class="floor_text">海神防水地板</div></div>
+		        	<div class="col-md-2 col-xs-6 floor_six floor_six2"  onclick="floorsix(2)"><img src="img/howtojoin/floor2.jpg" alt=""><div class="floor_text">海悅蝴蝶鎖扣系列</div></div>
+		        	<div class="col-md-2 col-xs-6 floor_six floor_six3"  onclick="floorsix(3)"><img src="img/howtojoin/floor3.jpg" alt=""><div class="floor_text">水御系列</div></div>
+		        	<div class="col-md-2 col-xs-6 floor_six floor_six4"  onclick="floorsix(4)"><img src="img/howtojoin/floor4.jpg" alt=""><div class="floor_text">水舞地板</div></div>
+		        	<div class="col-md-2 col-xs-6 floor_six floor_six5"  onclick="floorsix(5)"><img src="img/howtojoin/floor5.jpg" alt=""><div class="floor_text">pvc快拚地板</div></div>
+		        	<div class="col-md-2 col-xs-6 floor_six floor_six6"  onclick="floorsix(6)"><img src="img/howtojoin/floor6.jpg" alt=""><div class="floor_text">pvc美格地板</div></div>
+		        	</div>
+		        	<div id="floor_Change1" class="floor_Change">
+					<p style="font-weight: bold;font-size: 2rem;margin:1rem 1.5rem ">比利時海神防水超耐磨塑膠地板
+					<span class="seafloor"><a href="">產品看這!</a></span></p>
+					<div id="introduce">鋪設耐磨地板防水又抗刮嚴選品質地材良選，打造理想的優質生活空間，地材的選擇往往扮演關鍵角色，選對地材不僅有效提升空間品質， 對整體空間設計而言更是如虎添翼。鎖扣設計、防水地板、不需膠水、環保組裝方便、耐污抗刮表面超耐磨不易刮傷，易保養，能為您居家空間帶來不凡的視覺感受，提升空間質感與生活品味。
+					</div>
+					</div>
+					<div id="floor_Change2" class="floor_Change">
+					<p style="font-weight: bold;font-size: 2rem;margin:1rem 1.5rem ">海悅系列PVC塑膠地板</p>
+					<div id="introduce">超快速安裝：海悅卡扣地板在安裝技術上是無與倫比的，這得感謝4邊長短向皆有相吻合的交互鎖扣系統，使您可以隨心所欲的拼接。毋須走到房間另一側，在房間的任一角落，即可依你的方式安裝完工。無須遵循一般地板單向的施工方式;可同時讓多位人員進行施工，大幅縮短完工所需時間。展開你的創造性思維並想出任何適用於地板的花色。 
+
+					</div>
+					</div>	
+					<div id="floor_Change3" class="floor_Change">
+					<p style="font-weight: bold;font-size: 2rem;margin:1rem 1.5rem ">貝力水御系列獨特的抗菌PU塗層</p>
+					<div id="introduce">具有抗菌處理的特殊陶瓷PU塗層， 提供了超耐磨、易維護及長久的保固， 是獨一無二的保護層。其表層能確保高硬度、防磨損、防污性、耐用性並對化學製品提供絕佳的防護。此塗層所散發的自然光澤， 也被視為對其結構及設計美感的最佳呈現。
+
+					</div>
+					</div>	
+					<div id="floor_Change4" class="floor_Change">
+					<p style="font-weight: bold;font-size: 2rem;margin:1rem 1.5rem ">水舞系列WPC塑膠地板</p>
+					<div id="introduce">節能環保，100％防水塑木地板，將木纖維與熱塑性樹脂高度緊密結合，不易開裂、翹曲、抗菌、防潮、抗蟲蛀，物理性質穩定。製程環保無毒又健康。耐水性佳，不會因吸水而膨脹，故尺度穩定性良好、使用壽命極長。
+
+					</div>
+					</div>	
+					<div id="floor_Change5" class="floor_Change">
+					<p style="font-weight: bold;font-size: 2rem;margin:1rem 1.5rem ">貝力韓國快拼免膠地板</p>
+					<div id="introduce">PVC地板是軟質地板中最常用、最普及的地板，由於PVC地板優越的性能和對環境的保護在開發中的國家已普遍替代了磁磚和木質地板，成為地面裝飾的首選。PVC地板是一種在歐美及亞洲的日韓廣受歡迎的商品，風靡國外，適用範圍如：室內家庭、醫院、學校、辦公室、工廠、公共場所、商業空間等場所。
+
+					</div>
+					</div>	
+					<div id="floor_Change6" class="floor_Change">
+					<p style="font-weight: bold;font-size: 2rem;margin:1rem 1.5rem">貝力PVC塑膠美格地板
+</p>
+					<div id="introduce">美化空間、具防水效果 、耐磨耐用、經濟實惠 ，適用於多種場所，設計美觀使用簡便，能有效提升空間質感，可自行DIY拼裝，輕鬆解決地板問題， 讓您在親手打造理想空間的同時，還能增添生活樂趣。
+
+					</div>
+					</div>		 
+
+		        </div>
+		       </div>
+		    </div>
+	</div>
+	<!-- 建材展 -->
+	 <div class="modal fade" id="mynotice" role="dialog" data-position="fixed" data-fullscreen="true">
+		    <div class="modal-dialog modal-lg">
+		      <div class="modal-content">
+		        <div class="modal-header">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		          <h4 class="modal-title"><img src="img/rules_title.png" alt=""></h4>
+		        </div>
+		        <div class="modal-body">
+		        	<p>本次線上抽獎活動，需要搭配網路連線及有效的電子郵件地址使用。若與相關法令牴觸則無效。</p>
+		        	<p>每位幸運得獎者（包括任何未成年幸運得獎者的家長或法定監護人及代理人）可能需要參與獎品或獎品履約程序和簽署文件，如下列詳細說明所示。</p>
+		        	<p>參與本活動，表示參加者同意這些官方規定及合約規範。本合約包括但不限定於與主辦單位之間的賠償相關事宜（定義如下）、參加者享有的權利、受到的限制和相關補救的措施等。完整且詳細的內文將列於下面，參加者亦須同意與線上抽獎活動（定義如下）的所有糾紛，需透過具有約束力的仲裁來處理（見第11條）。</p>
+		        	<p>1. 抽獎活動簡介 :</p>
+		        	<p>本次 “居家地板大進擊線上抽獎" 活動開始於2017年1月23日，結束於2017年2月20日； 抽獎結果將公佈於<a href="http://www.yesim.tw/blink/floorgame/floorgame.html">http://www.yesim.tw/blink/floorgame/floorgame.html</a>（以下簡稱 "活動網站"），及貝力生活粉絲團。</p>
+		        	<p>2. 線上抽獎獎品一覽 A.  韓國柔軟厚遊戲墊，共抽出3位幸運得獎者。</p>
+		        	<p>B.  小小兵進口防滑地毯，共抽出3名幸運得獎者。</p>
+		        	<p>C.  進口乳膠防滑地毯，共抽出3名幸運得獎者。</p>
+		        	<p>活動贈品以實物為準，如遇不可抗拒之因素，主辦單位將有權保留更換其他等值獎項之權利。中獎者亦不得以任何理由要求主辦單位更換贈品或折換現金。</p>
+		        	<p>3.如何參加本次抽獎</p>
+		        	<p>A.   推廣：本活動消息將由主辦單位於各種通訊管道進行推廣，包括（但不限於）、電子郵件、Twitter和/或Facebook等社群媒體等，並完成活動即符合抽獎資格。</p>
+		        	<p>B. 線上抽獎活動日程：線上抽獎開始於2017年1月23日凌晨00:00:00（台灣時間）開始，並在2017年2月20日晚上11:59:59（台灣時間）結束。抽獎內容包括一</p>
+		        	<p>（1）韓國柔軟厚遊戲墊（2）小小兵進口防滑地毯（3）進口乳膠防滑地毯</p>
+		        	<p>並於2月23日公佈得獎名單。</p>
+		        	<p>C. 線上抽獎活動填寫資料: 參加者必須年滿13歲（含）以上，方能參加線上</p>
+		        	<p>抽獎，同時參加者必須在本網站 完成測驗活動。參加者可以使用電腦或具有連網功能的行動裝置（智慧型手機或平板電腦）造訪該網站，同時參加者的瀏覽器必須啟用JavaScript和Cookies。進入網站之後，參加者必須填寫抽獎必要資料。</p>
+		        	<p>如果參加者未填寫資料，系統將要求參加者提供所有必需的訊息以便完成抽獎活動。注意: 一旦參加者的抽獎資料被接收和記錄，相關資料便不能再作變更或編輯，以確認參加資格。</p>
+		        	<p>4. 幸運得獎者名單：本次活動的得獎名單將於2017年2月23日隨機抽出，並公佈於本網站，主辦單位亦將會另外以電子郵件通知幸運得獎者。</p>
+		        	<p>5. 線上抽獎參與限制：參加者不論試圖或成功以任何設備、程式、軟體、外掛或技巧來獲得更多註冊機會或規避官方規範者，本公司除有權撤銷其得獎資格或拒絕其參與本活動外，並得保留法律追訴權。此外，一旦參加者被取消線上抽獎資格之後，則其所登錄的帳號及密碼，將無法再登入活動網頁，當某些帳號被偵測到以不合理或不符規定的方式登入次抽獎活動時，則主辦單位有權限制、拒絕或阻止來自這些帳號或IP位址所提出的參加活動需求。</p>
+		        	<p>7.   一般性原則及活動參與相關條款</p>
+		        	<p>A. 參加本活動者於參加本活動之同時，即表示已充分知悉與同意以下事項： 本公司得因本活動之需要，依個人資料保護法相關規定，於參加本活動者同意之期間內，以電子檔或紙本形式於我國境內蒐集、處理、利用其個人資料。但本公司於未經參加本活動者之同意下，不得利用參加本活動者之個人資料進行商業行銷行為。參加本活動者可自由選擇是否提供完整個人資訊，惟若資訊不完整者，將無法參加本活動。</p>
+		        	<p>B. 本活動如有任何因電腦、網路、電話、技術或其他不可歸責於本公司之事由，致參加本活動者所寄出、填寫或登錄之資料有遺失、錯誤、無法辨識或毀損等情形，本公司不負任何法律責任。</p>
+		        	<p>C. 本公司將會主動以Email的方式與得獎者聯繫，參加本活動者請自行確認所填寫或登錄之資料均為正確，若因資料不全或錯誤，致無法通知活動相關訊息或送達獎品者，本公司概不負責。</p>
+		        	<p>D. 未於領獎期限內完成相關領獎手續或領獎者，視同放棄得獎權利，不接受開立扣繳憑單者，亦同。</p>
+		        	<p>E. 本活動獎品寄送地址僅限中華民國境內，如得獎者未能於領獎期限前回覆有效國內寄送地址，本公司得取消其得獎資格。</p>
+		        	<p>F. 本活動獎品不得要求折換現金、兌換其他商品或優惠、轉讓或轉售他人，如有任何爭議，本公司保有修改活動辦法及獎品之權利。</p>
+		        	<p>G. 本活動獎品悉以實物為準，如遇缺貨或不可抗力之因素無法提供時，本公司有權以其他等值品替代。</p>
+		        	<p>H. 依稅法規定，得獎者若為中華民國境內居住之個人，且所得獎項價值超過新臺幣(以下同)1,000時，本公司將於翌年開立所得稅扣繳憑單予得獎者，如所得獎項價值超過新臺幣20,000元者，得獎者須先繳交10%機會中獎稅金，始可領獎。得獎者若為非中華民國境內居住之個人(即在中華民國境內居住未達183天之本國人及外國人)，不論得獎獎項價值，均須先就得獎所得扣繳20%機會中獎稅金，始可領獎，且本公司須開立所得稅扣繳憑單。若未能依法繳納應繳稅額，即視為喪失得獎資格。參加者因參加本活動而須支付之任何稅捐皆為參加者之義務，概與本公司無關。前述稅捐法規如有更新或變動者，依修正後之規定辦理。</p>
+		        	<p>I. 本公司得檢視本活動是否有人為操作之行為，對於以偽造、詐欺或其他不正當之方式意圖兌領之參加者，除有權撤銷其得獎資格或拒絕其參與本活動外，並得保留法律追訴權。</p>
+		        	<p>J. 本公司保有取消、終止、修改或暫停本活動相關內容之權利，如有未盡事宜，悉依本公司相關規定或解釋辦理，並得隨時補充公告之。</p>
+		        	<p>8. 免責聲明</p>
+		        	<p>本次活動之主辦及協辦單位特此聲明免除所有（無論是明示的、暗示的，還是法定的）與本次抽獎及獎品所有保證和責任，在不局限於上述一般性原則下，主辦單位亦不針對贈送的獎項負任何明示或暗示等形式的擔保或責任，包括（但不限於）不作是否適合銷售、是否適用於某一特定用途和無侵權等方面的擔保。某些州或國家不允許限制或排除某些擔保或條件，所以上述排除條款可能不適用。</p>
+		        	<p>9. 蒐集個人資料告知事項與同意書：</p>
+		        	<p>主辦單位因舉辦網站抽獎活動而蒐集、 處理或利用個人資料時，皆以尊重您的權益為基礎，並以誠實信用之方式及以 下原則為之。 依據個人資料保護法等相關規定，以下告知事項請 台端詳閱：參加本活動前，請務必詳閱本活動辦法內容，當您透過本活動網站輸入個人資料參與活動時表示已同意『蒐集個人資料告知事項與同意書』內容。</p>
+		        	<p>▉ 告知事項：</p>
+		        	<p>A.蒐集個人資料公司：運嘉國際有限公司(以下簡稱本公司)。</p>
+		        	<p>B.蒐集之目的：行銷。</p>
+		        	<p>C.個人資料之類別：姓名、地址、電子郵件及電話於參加活動時所提供之個人資料。</p>
+		        	<p>D.個人資料利用之期間：自 台端參加『居家地板大進擊心測線上抽獎』活動之日起至同年12/30止。</p>
+		        	<p>E.個人資料利用之地區：僅限於台灣、金門、澎湖、馬祖等地區利用，且不會移轉至其他境外地區利用。</p>
+		        	<p>F.個人資料利用之對象及方式：由本公司該業務承辦人員於辦理該活動之特定目的必要範圍內，依通常作業所必要之方式利用此個人資料。本活動網站公開之資料，公眾將可透過網際網路瀏覽參與活動所公開之資料或中獎資訊。本公司對於中獎資訊之公布，將採取隱匿部分個人資訊之方式處理，以確保個人資料之安全。</p>
+		        	<p>G.依個人資料保護法第三條規定得行使之權利及方式：台端得向本公司承辦該項業務單位「運嘉國際有限公司」提出申請，以查詢、閱覽、製給複製本；或補充／更正、請求停止蒐集、處理、利用或刪除個人資料 內容之一部或全部。</p>
+		        	<p>H.（註：參加人申請查詢、閱覽、製給複製本時，將酌收必要成本費用。）</p>
+		        	<p>▉ 台端填寫個人資料後，以任何方式遞送至本公司收執時，均視為 台端已同意其所填寫之個人資料，供本公司於辦理『居家地板大進擊心測線上抽獎』活動之特定目的必要範圍內處理及利用；此外，台端可自行決定是否填寫相關之個人資料欄位，若 台端選擇不願填寫，將無法參加本次活動所提供之相關服務或遭取消中獎資格。</p>
+		        	<p>▉ 個人資料安全措施：本公司將依據相關法令之規定建構完善措施，保障台端個人資料之安全。</p>
+		        	<p>10. 雜項.</p>
+		        	<p>A. 失格:</p>
+		        	<p> 未遵守正式規則或以任何理由拒絕先前抽中的獎品，則這些得獎者的資格將被取消，獎品亦會被回收。</p>
+		        	<p> 所有經過複製、字跡模糊、不完整、偽造、第三方軟件產生的，或其他自動化或機器人產生的全部或部分資料，都將被視為失去中獎資格。</p>
+		        	<p> 任何參加本次抽獎活動的個人、實體或機構若僅註冊卻沒實際參加抽獎活動，線上抽獎資格將被視為無效。</p>
+		        	<p> 主辦單位有權在發現參加者在參與或抽獎過程中做出篡改相關資料、違反這些正式規則、違反體育道德或出現破壞性方式加參活動、意圖擾亂或破壞抽獎的合法操作或騷擾、辱罵、威脅或騷擾任何其他人等情況時，自行決定取消其參賽資格。同時主辦單位保留要求對這些參加者進行損害賠償及其他補救措施的法律追訴權。</p>
+		        	<p>B.   無效: 若正式規則的任一條款具有不可執行性時，將不得影響其他條款的有效性和可執行性。除非任何條款被確定為無效或不可執行或非法活動，否則這些正式規則應為有效並可繼續執行。除了透過主辦單位的正式書面聲明授權外，這些正式規則不能以任何方式進行修改或修訂。</p>
+		        	<p>C.   法律規範：所有跟抽獎活動、正式規則、參加者及主辦單位之間的權利和義務的規範及仲裁、效力、解釋和可執行性有關的問題應受約束，並按照中華民國台灣地區法律相關規範為之，若法律無相關規定者，則引用行政規定或其他國家法律規範之。</p>
+		        	<p>11. 相關爭議仲裁：</p>
+		        	<p>任何跟本次活動或得獎者兌換獎品可能引起的任何異議、爭議、分歧，或者違反、終止或無效連接的抽獎情況，應依據中華民國仲裁協會的仲裁規則進行最終仲裁協調。仲裁地點應是在台灣台北。仲裁的語言應為中文。仲裁裁決的結果具有約束力並公開的。任何參加者都可以經由活動官方網站所提供的連結瀏覽並閱讀仲裁人員的裁決與條款和正式規則相關內容。</p>
+		        	<p>主辦單位:</p>
+		        	<p>鴻佳地板國際股份有限公司</p>
+		        	<p>244 新北市林口區南勢里76-8號</p>
+		        	<p>運嘉國際有限公司。 著作權所有，並保留一切權利。 網站服務條款 隱私權政策</p>
+
+		        	
+		        </div>
+		       </div>
+		    </div>
+	</div> 
+
+</body>
+</html>
